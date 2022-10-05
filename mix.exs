@@ -36,7 +36,7 @@ defmodule TelemetryDecorator.MixProject do
       {:excoveralls, "~> 0.14.1", only: :test, runtime: false},
       {:mix_test_watch, "~> 1.0.2", only: :dev, runtime: false},
       {:pretty, "~> 1.0.4"},
-      {:telemetry, "~> 0.4.2"}
+      {:telemetry, "~> 1.0"}
     ]
   end
 
