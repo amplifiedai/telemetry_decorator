@@ -1,7 +1,7 @@
 defmodule TelemetryDecorator.MixProject do
   use Mix.Project
 
-  @version "1.0.1"
+  @version "1.0.2"
 
   def project do
     [
@@ -30,12 +30,12 @@ defmodule TelemetryDecorator.MixProject do
   defp deps do
     [
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
-      {:decorator, "~> 1.3.2"},
+      {:decorator, "~> 1.3"},
       {:dialyxir, "~> 1.1", only: :dev, runtime: false},
-      {:ex_doc, "~> 0.24.0", only: :dev, runtime: false},
-      {:excoveralls, "~> 0.14.1", only: :test, runtime: false},
-      {:mix_test_watch, "~> 1.0.2", only: :dev, runtime: false},
-      {:pretty, "~> 1.0.4"},
+      {:ex_doc, "~> 0.24", only: :dev, runtime: false},
+      {:excoveralls, "~> 0.14", only: :test, runtime: false},
+      {:mix_test_watch, "~> 1.0", only: :dev, runtime: false},
+      {:pretty, "~> 1.0"},
       {:telemetry, "~> 1.0"}
     ]
   end
@@ -59,7 +59,7 @@ defmodule TelemetryDecorator.MixProject do
         "GitHub" => "https://github.com/amplifiedai/opentelemetry_decorator",
         "OpenTelemetry Erlang SDK" => "https://github.com/open-telemetry/opentelemetry-erlang"
       },
-      maintainers: ["Garth Kidd"]
+      maintainers: ["Simon Cocking", "Christopher Grainger"]
     ]
   end
 end
